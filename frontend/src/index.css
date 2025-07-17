@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+  color: #ff7f2a;
+}
+
+button, .btn {
+  background-color: #db4061;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th {
+  background-color: #ff7f2a;
+  color: white;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn-small {
+  background-color: #db4061;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
